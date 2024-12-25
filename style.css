@@ -1,0 +1,240 @@
+body{
+    background-color: rgb(0, 0, 0);
+    color:white;
+    margin: 0px;
+}
+
+.left{
+    background-color:rgb(38, 38, 38);
+    width:25vw;
+    height:100%;
+    padding-top: 20px;
+}
+
+
+.right {
+    color:rgb(38, 38, 38);
+    width:75vw;
+    height:100%
+
+}
+
+.adjust{
+    height:30px;
+    width:auto;
+}
+.grey {
+    display: flex;                   
+    align-items: center;             
+    justify-content: center;         
+    border-radius: 50%;              
+    background-color: rgb(38, 38, 38);
+    height: 340px;
+    width: 340px;                     
+    margin: 0 10px;                  
+}
+
+.home {
+    height: 30px;
+    width: 30px;                   
+}
+
+.logo{
+    margin: 0px;
+    height: 35px;
+    width:auto;
+    margin-right: 200px;
+}
+
+.invert{
+    filter: invert();
+
+}
+.nav {
+    display: flex;                    
+    align-items: center;              
+    padding: 20px;                   
+    background-color: #000;          
+    justify-content: space-between; 
+}
+
+
+/* Style for .bar input field */
+.bar {
+    display: flex;                   
+    align-items: center;             
+    justify-content: space-between;  
+    border-radius: 50px;
+    background-color: rgb(38, 38, 38);
+    height: 50px;
+    width: 500px;
+    font-size: large;  
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0 20px;                 
+    border: none;
+    position: relative;  
+    padding: 0 20px;            
+}
+
+.bar img {
+    height: 25px;                    
+    width: auto;                     
+}
+
+.bar input {
+    border: none;
+    background: transparent;        
+    color: #fff;                     
+    font-size: large;
+    width: 100%;                     
+    padding-left: 10px;             
+    border-radius: 50px;
+}
+
+.button {
+    background-color: rgb(0, 0, 0);
+    height: 50px;
+    width: 100px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    font-size: larger;
+    display: flex;                  
+    align-items: center;            
+    justify-content: center;        
+    margin-right: 10px;             
+}
+
+.button_x {
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    width: 100px;
+    border-radius: 30px;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-size: larger;
+    display: flex;                  
+    align-items: center;            
+    justify-content: center;        
+    
+}
+.span1{
+    padding-top: 10px;
+    padding-left: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: grey;
+}
+.divleft2{
+   justify-content: space-between;
+   display: flex;
+   padding-bottom: 20px;
+}
+
+.divleft2combine{
+
+    display:inline;
+    background-color: rgb(34, 34, 34);
+    padding-top: 20px;
+    width:25vw;
+    
+
+   
+}
+
+.divleft3{
+ display: inline;
+ background-color: rgb(41, 41, 41);
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ display: inline-block;
+ padding: 10px 0px 20px 10px;
+ width: 25vw;
+ gap:10px;
+
+}
+
+.divleft5{
+  padding: 30px 0px 20px 0px;
+  display: inline;
+ background-color: rgb(41, 41, 41);
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ display: inline-block;
+ gap:10px;
+ padding: 20px 0px 20px 10px;
+ width: 25vw;
+
+}
+
+.Cbutton , .podbutton {
+    background-color: rgb(255, 253, 253);
+    height: 40px;
+    width: 130px;
+    border-radius: 30px;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-size: medium;
+    display: flex;                  
+    align-items: center;            
+    justify-content: center;        
+    margin-right: 10px;
+    margin-top: 40px; 
+    text-align: center;  
+    padding:3px;
+}
+
+
+.divleft4 , .divleft6{
+
+
+}
+.span2 , .span3{
+    padding-bottom:5px;
+    padding-top: 10px;
+
+    
+}
+
+.divleftlast{
+    justify-content: space-between;
+    height: 500px;
+    width: 25vw;
+    
+}
+.box{
+            flex: 1 1 30%; 
+            margin: 10px; 
+            background-color: rgb(6, 6, 6); 
+            height: 20px; 
+            width:25vw;
+            display: block;
+           
+}
+a{
+
+    color:#fff;
+    font-size: x-small;
+}
+
+.langbutton{
+    background-color: rgb(255, 253, 253);
+    height: 50px;
+    width: 130px;
+    border-radius: 30px;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-size: medium;
+    display: flex;                  
+    align-items: center;            
+    justify-content: center;        
+    margin-right: 10px;
+    margin-top: 40px; 
+    text-align: center;  
+    padding:3px;
+    gap:10px;
+   
+
+}
+
+
+
+
+
